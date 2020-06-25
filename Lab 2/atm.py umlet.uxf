@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>19</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>361</x>
+      <y>171</y>
+      <w>399</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>Atm.py
+--
+-ATM(object):
+--
++__init__(self, bank):
++run(self):
++_processAccount(self):
++_getBalance(self):
++_deposit(self):
++_withdraw(self):
++_quit(self):
++main():
++createBank(number = 0):</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>19</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>76</y>
+      <w>551</w>
+      <h>627</h>
+    </coordinates>
+    <panel_attributes>bank.py
+--
+-SavingsAccount(object):
+-Bank(object):
+--
++__init__(self, name, pin, balance = 0.0):
++__str__(self):
++getBalance(self):
++getName(self):
++getPin(self):
++deposit(self, amount):
++withdraw(self, amount):
++computeInterest(self):
++__init__(self, fileName = None):
++add(self, account):
++remove(self, pin):
++get(self, pin):
++computeInterest(self):
++__str__(self):
++save(self, fileName = None):
++testBank(self,number = 0):</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
